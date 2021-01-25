@@ -1,0 +1,133 @@
+body{
+    background-image:url(Images/india.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:link{
+    color: black;
+
+}
+#b:hover{
+    color: rgb(252, 152, 169);
+}
+#c:hover{
+    color: rgb(97, 59, 235);
+}
+#d:hover{
+    color: red;
+}
+
+#k{
+    margin-top: 5px;
+}
+#n{
+    margin-top: 5px;
+    position: relative;
+    left: 120px;
+}
+#staticBackdropLabel{
+    color: red;
+}
+#lo{
+    width: 250px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 70px;
+}
+#ls{
+    width: 250px;
+    height: 100px;
+    position: relative;
+    top: 90px;
+    left: 70px;
+}
+#lk{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    left: 0px;
+}
+#ln{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    right: 0px; 
+}
+#rt{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 110px;
+    left: 80px;  
+}
+#te{
+    position: relative;
+    top: 140px;
+    left:50px; 
+}
+
+#bu{
+    background-color: red;
+    color: white;
+
+}
+#font-face{
+    font-family: coda;
+    src: url(font/Coda_Caption.zip);
+
+}
+#sr{
+    font-family: coda;
+    word-spacing: 7px;
+    
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    animation:animate 3s linear infinite;
+}
+@keyframes animate{
+    0%{
+        color:rgb(90, 219, 15);
+ 
+ 
+    }
+    30%{
+        color:  rgb(226, 17, 139);
+        ;
+ 
+      }
+   50%{
+     color:blue;
+ 
+        
+      }
+      70%{
+        color:rgb(13, 223, 177);
+ 
+ 
+    }
+    90%{
+        color:  rgb(236, 222, 15);
+        ;
+ 
+      }
+   100%{
+     color:rgb(15, 15, 15);
+ 
+        
+      }
+ }
+ #p{
+     position: relative;
+     left: 80px;
+     top: 50px;
+     
+
+ }
+ #mar{
+     background-color: yellow;
+ }
